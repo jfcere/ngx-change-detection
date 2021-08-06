@@ -1,0 +1,23 @@
+<h4>AppComponent (ChangeDetectionStrategy.OnPush)</h4>
+
+<div class="form-group">
+  <label for="assign-input">Assign Object Value</label>
+  <input
+    id="assign-input"
+    class="form-control"
+    [ngModel]="obj.strValue"
+    (ngModelChange)="assignValueChange($event)"
+  >
+</div>
+
+<div class="form-group">
+  <label for="immutable-input">Use Immutable Object</label>
+  <input
+    id="immutable-input"
+    class="form-control"
+    [ngModel]="obj.strValue"
+    (ngModelChange)="immutableValueChange($event)"
+  >
+</div>
+
+<app-parent-onpush [obj]="obj"></app-parent-onpush>

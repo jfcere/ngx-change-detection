@@ -1,0 +1,20 @@
+<h4>Child (ChangeDetectionStrategy.Default)</h4>
+
+<p>{{ obj?.strValue }}</p>
+
+<hr>
+
+<div class="form-group">
+  <label for="assign-input">Assign Object Value</label>
+  <input
+    id="assign-input"
+    class="form-control"
+    [ngModel]="childObj.strValue"
+    (ngModelChange)="assignValueChange($event)"
+  >
+</div>
+
+<app-grandchild-default
+  [obj]="obj"
+  [child]="childObj">
+</app-grandchild-default>

@@ -1,0 +1,9 @@
+:host {
+  $background-rgb: rgb(0, 255, 0);
+
+  border-radius: 0.25rem;
+  display: block;
+  padding: 16px;
+  border: 1px solid $background-rgb;
+  background: rgba($background-rgb, .07);
+}

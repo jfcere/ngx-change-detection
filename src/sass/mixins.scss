@@ -1,0 +1,11 @@
+@mixin container($background-rgb) {
+  background: lighten($background-rgb, 45%);
+  border: 1px dashed $background-rgb;
+  border-radius: 0.25rem;
+  display: block;
+  padding: 16px;
+
+  input {
+    border: 1px solid rgba($background-rgb, .7);
+  }
+}

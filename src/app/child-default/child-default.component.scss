@@ -1,9 +1,5 @@
-:host {
-  $background-rgb: rgb(0, 255, 0);
+@import '../../sass/mixins';
 
-  border-radius: 0.25rem;
-  display: block;
-  padding: 16px;
-  border: 1px solid $background-rgb;
-  background: rgba($background-rgb, .07);
+:host {
+  @include container(rgb(31, 196, 25));
 }

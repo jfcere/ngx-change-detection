@@ -2,6 +2,11 @@
 
 Sample repository to test change detection behavior when using `ChangeDetectionStrategy.OnPush` on a component that has child/grandchild using `ChangeDetectionStrategy.Default`.
 
+```bash
+npm i
+npm start
+```
+
 ## Angular CLI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.

@@ -54,10 +54,6 @@
             {
               "pattern": "@*/**",
               "group": "parent"
-            },
-            {
-              "pattern": "ngx-markdown",
-              "group": "external"
             }
           ]
         }],
